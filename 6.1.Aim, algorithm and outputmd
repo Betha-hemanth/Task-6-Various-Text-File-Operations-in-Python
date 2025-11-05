@@ -1,0 +1,23 @@
+Aim: To perform different text file operations such as reading, updating, writing unique data, monitoring logs and summerizing feedback using python.
+
+6.1 Student Attendance System
+
+Scenario: College maintains a file storing student names and attendance percentages. Write a program to read the file and display students whose attendance is less than 76%.
+
+Algorithm:
+
+1. Open the file attendance.txt in read mode.
+
+2. For each line, split into student name and attendance percentage.
+
+3. Convert attendance percentage into a number and if less than 76, display the student name.
+
+4. Close the file.
+
+
+
+output:
+
+Alice has low attandence( 72 %)
+David has low attandence( 60 %)
+shopia has low attandence( 68 %)
